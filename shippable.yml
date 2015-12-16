@@ -1,6 +1,11 @@
 python:
   - "2.7"
 language: python
-install: pip install --use-mirrors -r requirements.txt
+install: pip install -r requirements.txt
 script:
   - python sqliteSample.py
+build_image: drydock/u12pytpls:tip
+notifications:
+  email:
+    test_ci2@yahoo.in
+  irc: "chat.freenode.net#test-irc"
