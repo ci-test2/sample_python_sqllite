@@ -8,6 +8,8 @@ python:
  - "3.5"
  - "pypy"
  - "pypy3"
+services:
+ - sqlite
 language: python
 install: pip install -r requirements.txt
 script:
