@@ -14,7 +14,7 @@ language: python
 install: pip install -r requirements.txt
 script:
   - python sqliteSample.py
-build_image: drydock/u14pytall:tip
+#build_image: drydock/u14pytall:tip
 notifications:
   email:
     test_ci2@yahoo.in
